@@ -21,7 +21,7 @@ export class AppService {
     return `https://www.coursera.org/search?page=${pageno}&index=prod_all_launched_products_term_optimization&topic=${topic}`
   }
 
-  async getAllCourses(location = '') {
+  async getAllCourses(input_cat = '') { // TODO:
     try {
       let courseList: courseInfo[] = [];
       let pageno: number = 1;
