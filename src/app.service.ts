@@ -94,7 +94,7 @@ export class AppService {
         'success': true,
         'message': "data scraping successfully",
         'category': COURSE_CATEGORY,
-        'file': 'link'//path
+        'file': 'link'//path : TODO
       }
     } catch (error) {
       console.log(error)
